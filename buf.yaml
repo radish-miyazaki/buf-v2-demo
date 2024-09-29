@@ -1,0 +1,12 @@
+version: v2
+modules:
+  - path: proto
+    name: buf.build/tutorials/lint
+lint:
+  use:
+    - STANDARD
+  ignore_only:
+    ENUM_VALUE_PREFIX:
+      - proto/radish/weather/v1/weather.proto
+    ENUM_ZERO_VALUE_SUFFIX:
+      - proto/radish/weather/v1/weather.proto
