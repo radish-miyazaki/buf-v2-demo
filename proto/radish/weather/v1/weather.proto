@@ -3,9 +3,9 @@ syntax = "proto3";
 package radish.weather.v1;
 
 enum Condition {
-  UNSPECIFIED = 0;
-  SUNNY = 1;
-  RAINY = 2;
+  CONDITION_UNSPECIFIED = 0;
+  CONDITION_SUNNY = 1;
+  CONDITION_RAINY = 2;
 }
 
 message GetWeatherRequest {
