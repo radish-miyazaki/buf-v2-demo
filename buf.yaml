@@ -1,7 +1,7 @@
 version: v2
 modules:
-  - path: proto
-    name: buf.build/tutorials/lint
+  - path: .
+    name: buf.build/radish/weather
 lint:
   use:
     - STANDARD
